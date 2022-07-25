@@ -1,0 +1,66 @@
+
+form{
+    margin-left: 10px;
+
+    h1{
+    margin-bottom: 20px;    
+    }
+
+    .input-field{
+        margin-bottom: 18px;
+
+        span{
+            color: $redColor;
+            font-style: italic;
+            margin-bottom: 10px;
+            display: none;
+            font-size:10px
+        }
+    }
+
+    label{
+        display: block;
+    }
+
+    input{
+        width: 80%;
+        height: 35px;
+        border: 1px solid silver;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    input[type="tel"]{
+        width: 40%;
+        padding-left: 10px;
+    }
+
+    input[type="checkbox"]{
+        margin: 0;
+        padding: 0;
+        width: 20px;
+    
+    }
+    .checkbox{
+        display: flex;
+    }
+    
+    .checkbox label{
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    .btn{
+        margin-top: 30px;
+        background: $blueColor;
+        padding: 10px;
+        width: 200px;
+        border-radius: 5px;
+        border: none;
+        color: $whiteColor;
+    }
+}
+
+
+input:invalid[focus="true"] ~ span{
+    display: block;
+  }

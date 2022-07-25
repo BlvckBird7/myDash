@@ -1,0 +1,68 @@
+form {
+  margin-left: 10px;
+}
+
+form h1 {
+  margin-bottom: 20px;
+}
+
+form .input-field {
+  margin-bottom: 18px;
+}
+
+form .input-field span {
+  color: red;
+  font-style: italic;
+  margin-bottom: 10px;
+  display: none;
+  font-size: 10px;
+}
+
+form label {
+  display: block;
+}
+
+form input {
+  width: 80%;
+  height: 35px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+form input[type="tel"] {
+  width: 40%;
+  padding-left: 10px;
+}
+
+form input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+}
+
+form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form .checkbox label {
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+form .btn {
+  margin-top: 30px;
+  background: #6371f7;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+
+input:invalid[focus="true"] ~ span {
+  display: block;
+}
+/*# sourceMappingURL=Form.css.map */

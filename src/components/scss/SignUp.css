@@ -1,0 +1,35 @@
+.sign-up {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e5e5e5;
+  height: 100vh;
+}
+
+.sign-up .bg-image {
+  background: url("../../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 97vh;
+  width: 50%;
+  margin: 10px 2px 10px 10px;
+  border-radius: 10px 0px 0 10px;
+}
+
+.sign-up .bg-image .text-bottom {
+  text-align: center;
+  position: relative;
+  top: 70%;
+}
+
+.form {
+  width: 50%;
+  margin: 10px 10px 10px 2px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 0px 10px 10px 0;
+  -webkit-box-shadow: 0 1em 1em rgba(248, 247, 247, 0.1);
+          box-shadow: 0 1em 1em rgba(248, 247, 247, 0.1);
+}
+/*# sourceMappingURL=SignUp.css.map */
